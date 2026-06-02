@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "ssot_package_name": "authentication-governance-pack",
+  "origin": {
+    "id": "pack:authentication",
+    "package_name": "authentication-governance-pack",
+    "import_name": "authentication_governance_pack",
+    "kind": "governance-pack",
+    "title": "Authentication Governance",
+    "description": "Installable SSOT governance pack for digital identity proofing, authenticator assurance, federation assurance, credential lifecycle, session security, WebAuthn/FIDO authenticators, OIDC authentication claims, and authentication evidence.",
+    "homepage": "https://github.com/groupsum/authentication-governance-pack",
+    "repository": "https://github.com/groupsum/authentication-governance-pack"
+  },
+  "compatibility": {
+    "python": ">=3.10,<3.15",
+    "ssot_registry_schema": ">=0.4.0",
+    "ssot_pack_contract": ">=0.2.17,<0.3.0"
+  },
+  "trust": {
+    "trusted_by_default": false,
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:authentication-governance-pack"
+  },
+  "documents": {
+    "adr": {
+      "manifest_path": "templates/adr/manifest.json"
+    },
+    "spec": {
+      "manifest_path": "templates/specs/manifest.json"
+    }
+  }
+}
