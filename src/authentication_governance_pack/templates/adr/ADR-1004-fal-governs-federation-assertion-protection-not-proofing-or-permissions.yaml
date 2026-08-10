@@ -5,7 +5,7 @@
   "number": 1004,
   "slug": "fal-governs-federation-assertion-protection-not-proofing-or-permissions",
   "title": "FAL Governs Federation Assertion Protection Not Proofing Or Permissions",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Federation Assurance Level describes protection of federated assertions between an identity provider and relying party.",
   "body": "Repositories must use FAL to govern assertion audience restriction, replay protection, injection protection, signature or encryption requirements, and relying-party processing. FAL must not be treated as an identity proofing or authorization permission level.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:fal-governs-federation-assertion-protection"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

@@ -5,7 +5,7 @@
   "number": 1005,
   "slug": "authenticator-lifecycle-is-a-governed-security-surface",
   "title": "Authenticator Lifecycle Is A Governed Security Surface",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Authenticator binding, replacement, recovery, revocation, and rotation require explicit governance.",
   "body": "Repositories must define how authenticators are enrolled, bound, activated, replaced, recovered, suspended, revoked, and audited. Lifecycle steps must preserve the target assurance level and must not silently weaken the account.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:authenticator-binding-replacement-and-revocation-are-governed"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

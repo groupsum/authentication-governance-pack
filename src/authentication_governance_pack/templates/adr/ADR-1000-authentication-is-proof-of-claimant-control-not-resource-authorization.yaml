@@ -5,7 +5,7 @@
   "number": 1000,
   "slug": "authentication-is-proof-of-claimant-control-not-resource-authorization",
   "title": "Authentication Is Proof Of Claimant Control Not Resource Authorization",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Authentication proves claimant control of authenticators for a subscriber account and does not decide resource permissions.",
   "body": "Repositories must govern authentication separately from authorization. A successful authentication event can establish subject identity, authenticator strength, and session context, but it must not grant resource actions without a separate authorization decision.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:authentication-and-authorization-are-separate-governance-surfaces"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

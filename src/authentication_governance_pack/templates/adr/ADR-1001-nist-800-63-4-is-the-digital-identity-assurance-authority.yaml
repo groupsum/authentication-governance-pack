@@ -5,7 +5,7 @@
   "number": 1001,
   "slug": "nist-800-63-4-is-the-digital-identity-assurance-authority",
   "title": "NIST 800 63 4 Is The Digital Identity Assurance Authority",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "NIST SP 800-63-4 governs identity proofing, authentication, and federation assurance levels.",
   "body": "Repositories making digital identity assurance claims must anchor IAL, AAL, and FAL terminology to NIST SP 800-63-4. Identity proofing, authenticator strength, and federation assertion protection are separate assurance functions.",
@@ -23,8 +23,17 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:identity-proofing-and-enrollment-use-nist-sp-800-63a-4",
+    "adr:aal-governs-authenticator-and-authentication-strength",
+    "adr:fal-governs-federation-assertion-protection"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

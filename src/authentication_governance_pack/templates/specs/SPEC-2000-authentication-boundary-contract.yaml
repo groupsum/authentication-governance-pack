@@ -5,7 +5,7 @@
   "number": 2000,
   "slug": "authentication-boundary-contract",
   "title": "Authentication Boundary Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines the boundary between authentication, identity proofing, federation, session state, and authorization.",
   "body": "A conforming repository declares authenticators, credential service providers, identity providers, relying parties, sessions, and downstream authorization handoff. Authentication outputs must be represented as identity and assurance facts rather than resource permissions.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:authn-authz-boundary-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

@@ -5,7 +5,7 @@
   "number": 2003,
   "slug": "authenticator-assurance-contract",
   "title": "Authenticator Assurance Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines authenticator and authentication event requirements tied to AAL.",
   "body": "A conforming repository declares authenticator types, factor requirements, cryptographic requirements, phishing-resistance expectations, user verification, authenticator binding, and reauthentication behavior for each claimed AAL.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:authenticator-assurance-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

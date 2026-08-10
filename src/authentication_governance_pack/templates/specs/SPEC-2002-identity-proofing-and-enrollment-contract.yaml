@@ -5,7 +5,7 @@
   "number": 2002,
   "slug": "identity-proofing-and-enrollment-contract",
   "title": "Identity Proofing And Enrollment Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines identity proofing and enrollment requirements tied to IAL.",
   "body": "A conforming repository declares whether identity proofing is performed, which identity evidence is collected or avoided, which attributes are verified, how enrollment is recorded, and which IAL claim is supported by evidence.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:identity-proofing-and-enrollment-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

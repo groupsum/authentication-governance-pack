@@ -5,7 +5,7 @@
   "number": 1007,
   "slug": "oidc-id-tokens-represent-authentication-events-not-permission-decisions",
   "title": "OIDC ID Tokens Represent Authentication Events Not Permission Decisions",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "OIDC ID Tokens and authentication claims represent authentication events and identity context.",
   "body": "Repositories using OIDC must validate ID Token issuer, audience, expiry, nonce when applicable, subject, authentication context, and authentication methods. ID Token claims may inform authorization but must not act as complete permission decisions.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:oidc-claims-identify-subjects-not-application-permissions"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

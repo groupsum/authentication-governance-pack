@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "authentication-governance-pack"
-version = "0.1.1.dev1"
-description = "Installable SSOT governance pack for digital identity proofing, authenticator assurance, federation assurance, credential lifecycle, session security, WebAuthn/FIDO authenticators, OIDC authentication claims, and authentication evidence."
+version = "0.2.0.dev1"
+description = "Deprecated historical compatibility package; use the specialist governance packages."
 readme = "README.md"
 requires-python = ">=3.10,<3.15"
 license = "Apache-2.0"
@@ -37,7 +37,7 @@ keywords = [
   "account-recovery",
 ]
 classifiers = [
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 7 - Inactive",
   "Intended Audience :: Developers",
   "Intended Audience :: Information Technology",
   "Operating System :: OS Independent",

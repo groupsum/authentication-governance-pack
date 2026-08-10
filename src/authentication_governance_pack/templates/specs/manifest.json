@@ -6,16 +6,23 @@
     "title": "Authentication Boundary Contract",
     "filename": "SPEC-2000-authentication-boundary-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2000-authentication-boundary-contract.yaml",
-    "sha256": "063f9b218d4bebfc72a15673f84612b5425a88fd3e43fe4563ccc11c2406a603",
+    "sha256": "67359d6376e14a004e03a4eaad819ba993ff1a6b354f5ca906b5ee75255db068",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:authn-authz-boundary-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -25,16 +32,25 @@
     "title": "Digital Identity Assurance Level Contract",
     "filename": "SPEC-2001-digital-identity-assurance-level-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2001-digital-identity-assurance-level-contract.yaml",
-    "sha256": "0caf93fba604af9e651fc91b8670fa7c3c6e0a2f711002c355ad9e3563b72a28",
+    "sha256": "09e4344f8ed31f6e7fa03159596df484566d98aa010c6f246acae260239b4932",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:identity-assurance-level-selection-contract",
+      "spc:authenticator-assurance-contract",
+      "spc:federation-assurance-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -44,16 +60,23 @@
     "title": "Identity Proofing And Enrollment Contract",
     "filename": "SPEC-2002-identity-proofing-and-enrollment-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2002-identity-proofing-and-enrollment-contract.yaml",
-    "sha256": "20f032c24363b4b4378788458ac4f3565b0e0e733818062c1d864eddc3997bd4",
+    "sha256": "5d3371197ba2355a820e85a2ef0c69b8742520a38b7d882dfab2675f2c073936",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:identity-proofing-and-enrollment-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -63,16 +86,23 @@
     "title": "Authenticator Assurance Contract",
     "filename": "SPEC-2003-authenticator-assurance-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2003-authenticator-assurance-contract.yaml",
-    "sha256": "58568a150b5669d9028c28d9806cc9909ae0a2e83cbd5ba4fa8decddd8ed1f0f",
+    "sha256": "16dc2ef955859d8b3b497fb387634734c40a3f2b1b2426dae417955efbb8ef7c",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:authenticator-assurance-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -82,16 +112,23 @@
     "title": "Federation Assurance Contract",
     "filename": "SPEC-2004-federation-assurance-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2004-federation-assurance-contract.yaml",
-    "sha256": "d2962c507d808517cdc7a9219cc63f667568c136692fe85d2af3510aac1c8b65",
+    "sha256": "483327ead34d587587a19ddee29778ab96ef8a92647a1dce5528575622431d5a",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:federation-assurance-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -101,16 +138,25 @@
     "title": "OIDC Authentication Claims Contract",
     "filename": "SPEC-2005-oidc-authentication-claims-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2005-oidc-authentication-claims-contract.yaml",
-    "sha256": "27ab57976584d5df75bb8de3f0c7fca8061250fbda63e80faa2bcd834b090072",
+    "sha256": "b35f5ed737fc5f66c6639cf3220b9e640327ea5ec0c92d8e64c5a06c74cbce11",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:oidc-id-token-and-userinfo-claims-contract",
+      "spc:oidc-id-token-validation-contract",
+      "spc:oidc-userinfo-and-authentication-claims-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -120,16 +166,25 @@
     "title": "WebAuthn FIDO Authenticator Contract",
     "filename": "SPEC-2006-webauthn-fido-authenticator-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2006-webauthn-fido-authenticator-contract.yaml",
-    "sha256": "42c54cdf954defe36bc9b4b6c935f24b2c5201b4d866edded44168a6c859b1c8",
+    "sha256": "a128cbade9eeec01b746418f242a93f51b2dadc7d4ad5f58be3284e5efb9d56c",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:webauthn-relying-party-configuration-contract",
+      "spc:webauthn-registration-ceremony-contract",
+      "spc:webauthn-authentication-ceremony-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -139,16 +194,23 @@
     "title": "Authenticator Lifecycle Contract",
     "filename": "SPEC-2007-authenticator-lifecycle-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2007-authenticator-lifecycle-contract.yaml",
-    "sha256": "86b9f5a0ee7571f9655ed6de0fc29a0c85c130bf50298318011ddf7d59a7ed37",
+    "sha256": "13f861cc122dee2206f0fc5592553294afca436d6ca036239b5742f99a6ba22e",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:authenticator-binding-and-lifecycle-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -158,16 +220,24 @@
     "title": "Session Lifecycle And Step Up Contract",
     "filename": "SPEC-2008-session-lifecycle-and-step-up-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2008-session-lifecycle-and-step-up-contract.yaml",
-    "sha256": "9b64d25384e58ad54add6f1a44d8956f4ee27f404613460a5b7491be9b531d6a",
+    "sha256": "1ee231d46ab1222c9769fb3609f4c380dea5355415d1b55785e66d35ac56bf95",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:session-issuance-and-binding-contract",
+      "spc:reauthentication-and-step-up-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -177,16 +247,23 @@
     "title": "Account Recovery And Reset Contract",
     "filename": "SPEC-2009-account-recovery-and-reset-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2009-account-recovery-and-reset-contract.yaml",
-    "sha256": "a301830d7cd0e8a1b3ca676a673fa929d6e5ffc8c63eb66596aac8b1aa1758e6",
+    "sha256": "08f24c8be0d5bcd7c262d4525d647a0cd2c88e2fd291bd0c87c04ca60c06b5f6",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:account-recovery-and-reset-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -196,16 +273,25 @@
     "title": "Authentication Audit And Evidence Contract",
     "filename": "SPEC-2010-authentication-audit-and-evidence-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2010-authentication-audit-and-evidence-contract.yaml",
-    "sha256": "4a5c1cf8dd219abd0b1509c01a914bb0d8d4a51317ba2833145f8b4ecfcb5a7e",
+    "sha256": "4638f088c7f95fd8aa0c7a882742c92828375f56269f9df28db9b9aa066334d3",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:authentication-event-and-audit-contract",
+      "spc:session-audit-evidence-contract",
+      "spc:federated-subject-attribute-release-and-audit-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   },
   {
@@ -215,16 +301,23 @@
     "title": "Authentication Failure Mode And Rate Limit Contract",
     "filename": "SPEC-2011-authentication-failure-mode-and-rate-limit-contract.yaml",
     "target_path": ".ssot/specs/SPEC-2011-authentication-failure-mode-and-rate-limit-contract.yaml",
-    "sha256": "9148330e15f77f2c6441b8d3afa8bd2798481bab1bc339a7c2a1ed7d7aa59887",
+    "sha256": "254e2207559a27abf3d8b3ab82500c0ffee9b28915335e608d541eefbecb693a",
     "origin": "extension-pack",
     "reservation_owner": "extension-pack:authentication-governance-pack",
     "immutable": true,
     "minimum_schema_version": "0.4.0",
-    "introduced_in": "0.1.1.dev1",
-    "status": "accepted",
+    "introduced_in": "0.2.0.dev1",
+    "status": "superseded",
     "supersedes": [],
-    "superseded_by": [],
-    "status_notes": [],
+    "superseded_by": [
+      "spc:authentication-failure-and-rate-limit-contract"
+    ],
+    "status_notes": [
+      {
+        "date": "2026-08-10",
+        "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+      }
+    ],
     "kind": "governance"
   }
 ]

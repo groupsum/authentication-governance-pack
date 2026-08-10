@@ -5,7 +5,7 @@
   "number": 1008,
   "slug": "session-lifecycle-and-reauthentication-are-authentication-governance-requirements",
   "title": "Session Lifecycle And Reauthentication Are Authentication Governance Requirements",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Session creation, continuation, timeout, step-up, and termination are governed authentication outcomes.",
   "body": "Repositories must govern session binding, idle and absolute timeouts, reauthentication triggers, step-up authentication, logout, device changes, risk changes, and session invalidation after authenticator or account events.",
@@ -23,8 +23,16 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:authenticated-sessions-begin-after-authentication",
+    "adr:reauthentication-and-step-up-triggers-are-explicit"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

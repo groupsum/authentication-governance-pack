@@ -5,7 +5,7 @@
   "number": 2008,
   "slug": "session-lifecycle-and-step-up-contract",
   "title": "Session Lifecycle And Step Up Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines session and step-up authentication requirements.",
   "body": "A conforming repository declares session creation, session binding, idle timeout, absolute timeout, reauthentication triggers, step-up rules, logout, session invalidation, and risk-event handling tied to the target assurance level.",
@@ -23,8 +23,16 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:session-issuance-and-binding-contract",
+    "spc:reauthentication-and-step-up-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

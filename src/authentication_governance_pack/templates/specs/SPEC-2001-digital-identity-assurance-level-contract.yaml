@@ -5,7 +5,7 @@
   "number": 2001,
   "slug": "digital-identity-assurance-level-contract",
   "title": "Digital Identity Assurance Level Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines IAL, AAL, and FAL selection, documentation, and evidence requirements.",
   "body": "A conforming repository explains each target IAL, AAL, and FAL separately. IAL covers identity proofing and enrollment, AAL covers authenticator and authentication-event strength, and FAL covers federated assertion protection between an identity provider and relying party.",
@@ -23,8 +23,17 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:identity-assurance-level-selection-contract",
+    "spc:authenticator-assurance-contract",
+    "spc:federation-assurance-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

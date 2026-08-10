@@ -5,7 +5,7 @@
   "number": 2011,
   "slug": "authentication-failure-mode-and-rate-limit-contract",
   "title": "Authentication Failure Mode And Rate Limit Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines authentication failure handling, lockout, throttling, and abuse-control requirements.",
   "body": "A conforming repository declares failed-attempt handling, rate limits, throttling, lockout or risk-based controls, enumeration resistance, notification behavior, and recovery from false lockouts without weakening authentication assurance.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:authentication-failure-and-rate-limit-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

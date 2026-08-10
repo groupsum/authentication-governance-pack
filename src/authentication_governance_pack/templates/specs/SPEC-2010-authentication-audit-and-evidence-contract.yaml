@@ -5,7 +5,7 @@
   "number": 2010,
   "slug": "authentication-audit-and-evidence-contract",
   "title": "Authentication Audit And Evidence Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines authentication audit logging and release evidence requirements.",
   "body": "A conforming repository captures successful and failed authentication events, authenticator type, assurance level, subject, relying party, session transition, step-up, recovery, lockout, and suspicious activity evidence sufficient for release and incident review.",
@@ -23,8 +23,17 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:authentication-event-and-audit-contract",
+    "spc:session-audit-evidence-contract",
+    "spc:federated-subject-attribute-release-and-audit-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

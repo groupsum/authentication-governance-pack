@@ -5,7 +5,7 @@
   "number": 2004,
   "slug": "federation-assurance-contract",
   "title": "Federation Assurance Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines federated assertion requirements tied to FAL.",
   "body": "A conforming repository declares assertion audience restrictions, replay protection, injection protection, signing or encryption requirements, assertion lifetime, relying-party validation, and federation evidence for each claimed FAL.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:federation-assurance-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

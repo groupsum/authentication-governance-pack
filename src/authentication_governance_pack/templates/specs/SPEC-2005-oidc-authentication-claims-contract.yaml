@@ -5,7 +5,7 @@
   "number": 2005,
   "slug": "oidc-authentication-claims-contract",
   "title": "OIDC Authentication Claims Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines OIDC ID Token and authentication claim validation requirements.",
   "body": "A conforming OIDC implementation validates issuer, audience, expiry, nonce when required, subject, authentication context, authentication methods, and token signature. It documents how acr and amr values map to local assurance evidence.",
@@ -23,8 +23,17 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:oidc-id-token-and-userinfo-claims-contract",
+    "spc:oidc-id-token-validation-contract",
+    "spc:oidc-userinfo-and-authentication-claims-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

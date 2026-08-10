@@ -5,7 +5,7 @@
   "number": 1006,
   "slug": "webauthn-and-fido-authenticators-are-phishing-resistant-authentication-surfaces",
   "title": "WebAuthn And FIDO Authenticators Are Phishing Resistant Authentication Surfaces",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "WebAuthn and FIDO authenticators provide public-key authentication surfaces that require explicit relying-party governance.",
   "body": "Repositories using WebAuthn or FIDO authenticators must govern relying-party identifiers, attestation policy, user verification, resident or discoverable credentials, authenticator attachment, credential backup or sync behavior, and recovery paths.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:webauthn-is-the-relying-party-public-key-credential-surface"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

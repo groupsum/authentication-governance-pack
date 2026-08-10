@@ -5,7 +5,7 @@
   "number": 1010,
   "slug": "authentication-events-require-audit-and-assurance-evidence",
   "title": "Authentication Events Require Audit And Assurance Evidence",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Authentication governance requires audit and release evidence for successful, failed, and elevated authentication events.",
   "body": "Repositories must capture authentication method, authenticator class, assurance level, subject, relying party, timestamp, risk signal, session transition, failed attempts, recovery events, and step-up events as appropriate for release and incident evidence.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:authentication-events-require-assurance-evidence"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

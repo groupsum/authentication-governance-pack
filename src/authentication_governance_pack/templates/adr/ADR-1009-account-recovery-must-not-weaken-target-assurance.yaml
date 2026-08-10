@@ -5,7 +5,7 @@
   "number": 1009,
   "slug": "account-recovery-must-not-weaken-target-assurance",
   "title": "Account Recovery Must Not Weaken Target Assurance",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Recovery and reset paths must preserve the assurance target of the account.",
   "body": "Repositories must treat account recovery, credential reset, authenticator replacement, and trusted referee flows as high-risk authentication lifecycle surfaces. Recovery evidence must show that attackers cannot use weaker recovery steps to bypass the target assurance level.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:account-recovery-must-preserve-target-assurance"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

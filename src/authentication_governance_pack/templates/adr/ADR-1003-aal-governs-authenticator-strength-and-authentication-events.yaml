@@ -5,7 +5,7 @@
   "number": 1003,
   "slug": "aal-governs-authenticator-strength-and-authentication-events",
   "title": "AAL Governs Authenticator Strength And Authentication Events",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Authentication Assurance Level describes confidence that a claimant controls bound authenticators.",
   "body": "Repositories must use AAL to describe authenticator requirements, authentication factors, cryptographic controls, phishing resistance, and reauthentication expectations. AAL must be tied to concrete authenticators and authentication events.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:aal-governs-authenticator-and-authentication-strength"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

@@ -5,7 +5,7 @@
   "number": 2009,
   "slug": "account-recovery-and-reset-contract",
   "title": "Account Recovery And Reset Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines account recovery, reset, and trusted recovery requirements.",
   "body": "A conforming repository declares recovery methods, reset proofs, helpdesk or trusted recovery controls, notifications, rate limits, audit events, and evidence that recovery does not bypass the target authentication assurance.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:account-recovery-and-reset-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

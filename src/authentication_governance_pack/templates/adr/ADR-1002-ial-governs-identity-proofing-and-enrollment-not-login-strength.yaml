@@ -5,7 +5,7 @@
   "number": 1002,
   "slug": "ial-governs-identity-proofing-and-enrollment-not-login-strength",
   "title": "IAL Governs Identity Proofing And Enrollment Not Login Strength",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Identity Assurance Level describes identity proofing and enrollment rigor, not authenticator strength.",
   "body": "Repositories must use IAL to describe how strongly a credential service provider established the applicant identity and enrolled the subscriber account. IAL must not be used as a synonym for multi-factor authentication or session security.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "adr:ial-is-independent-from-aal-and-fal"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",

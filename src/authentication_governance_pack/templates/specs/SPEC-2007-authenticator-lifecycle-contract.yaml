@@ -5,7 +5,7 @@
   "number": 2007,
   "slug": "authenticator-lifecycle-contract",
   "title": "Authenticator Lifecycle Contract",
-  "status": "accepted",
+  "status": "superseded",
   "origin": "extension-pack",
   "summary": "Defines authenticator enrollment, binding, replacement, recovery, revocation, and audit requirements.",
   "body": "A conforming repository defines lifecycle controls for authenticator binding, addition, replacement, loss, reset, revocation, suspension, rotation, and audit. Lifecycle operations must preserve or explicitly downgrade the claimed assurance level.",
@@ -23,8 +23,15 @@
     "https://www.rfc-editor.org/rfc/rfc9700"
   ],
   "supersedes": [],
-  "superseded_by": [],
-  "status_notes": [],
+  "superseded_by": [
+    "spc:authenticator-binding-and-lifecycle-contract"
+  ],
+  "status_notes": [
+    {
+      "date": "2026-08-10",
+      "note": "Superseded by narrower canonical governance documents during the portfolio deduplication."
+    }
+  ],
   "tags": [
     "authentication",
     "identity",
